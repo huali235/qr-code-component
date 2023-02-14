@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #d6e2f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Outifit", sans-serif;
+}
+
+.container {
+  width: 32rem;
+  padding: 1.6rem;
+  background-color: #fff;
+  border-radius: 14px;
+}
+
+.container img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.title {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #1f3251;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #7b879d;
+}
